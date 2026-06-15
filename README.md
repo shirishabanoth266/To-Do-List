@@ -1,95 +1,96 @@
-# To-Do List App (Java)
+# To-Do List App
 
-## Project Overview
-The To-Do List App is a console-based application developed using Java.  
-It helps users manage daily tasks by allowing them to add, view, complete, and delete tasks.
-
-This project is useful for beginners to understand Java programming concepts such as:
-- Classes and Objects
-- ArrayList
-- Scanner
-- Loops
-- Conditional Statements
-- Object-Oriented Programming (OOP)
-
----
+A simple and responsive To-Do List application built using HTML, CSS, and JavaScript. Users can add tasks, mark them as completed, delete tasks, and save their tasks using Local Storage.
 
 ## Features
-✅ Add new tasks  
-✅ View all tasks  
-✅ Mark tasks as completed  
-✅ Delete tasks  
-✅ Exit application  
 
----
+- Add new tasks
+- Mark tasks as completed
+- Delete tasks
+- Store tasks using Local Storage
+- Responsive and user-friendly interface
 
 ## Technologies Used
-- Java
-- ArrayList
-- Scanner Class
-- OOP Concepts
 
----
+- HTML5
+- CSS3
+- JavaScript (ES6)
+- Browser Local Storage
 
 ## Project Structure
-```bash
-TodoListApp/
-│
-├── TodoListApp.java
-└── Task.java
-```
 
----
+```text
+todo-list-app/
+│
+├── index.html
+├── style.css
+├── script.js
+├── README.md
+└── images/
+    └── screenshot.png
+```
 
 ## How to Run
-1. Install Java (JDK 8 or above)  
-2. Open terminal / command prompt  
-3. Compile the files:
 
-```bash
-javac TodoListApp.java
+### Method 1: Open Directly
+
+1. Download or clone the repository.
+2. Open the project folder.
+3. Double-click `index.html`.
+
+### Method 2: Using VS Code
+
+1. Open the project in VS Code.
+2. Install the Live Server extension.
+3. Right-click `index.html`.
+4. Select **Open with Live Server**.
+
+## Screenshots
+
+Add a screenshot of your application inside the `images` folder.
+
+```md
+![To-Do List App](images/screenshot.png)
 ```
 
-4. Run the program:
+## Functionalities
 
-```bash
-java TodoListApp
-```
+### Add Task
+Users can enter a task and click the Add button to create a new task.
 
----
+### Complete Task
+Click on a task to mark it as completed.
 
-## Sample Output
-```text
-===== TO-DO LIST APP =====
-1. Add Task
-2. View Tasks
-3. Mark Task as Completed
-4. Delete Task
-5. Exit
+### Delete Task
+Click the Delete button to remove a task.
 
-Enter your choice: 1
-Enter task name: Complete project
-Task Added!
-```
+### Data Persistence
+Tasks remain available even after refreshing the browser because Local Storage is used.
 
----
+## Future Enhancements
 
-## Learning Outcome
-By building this project, I learned:
-- How to create classes and objects
-- How to store dynamic data using ArrayList
-- How to take user input using Scanner
-- How to build menu-driven applications in Java
+- Edit tasks
+- Dark mode
+- Task categories
+- Due dates and reminders
+- Search functionality
+- Drag and drop task sorting
 
----
+## Learning Outcomes
 
-## Future Improvements
-- Add file storage (save tasks permanently)
-- Add task deadlines
-- Build GUI version using Java Swing / JavaFX
-- Add priority levels for tasks
+Through this project, I learned:
 
----
+- DOM Manipulation
+- Event Handling
+- Local Storage
+- JavaScript Functions
+- Responsive Web Design
+- Git and GitHub Basics
 
 ## Author
-Your Name
+
+Shirisha Banoth
+
+## License
+
+This project is open-source and available for learning and educational purposes.
